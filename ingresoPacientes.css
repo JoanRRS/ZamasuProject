@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+.container {
+  width: 90%;
+  height: 90%;
+}
+body {
+  background-color: #00999d;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body * {
+  padding: 5px;
+  margin: 5px;
+  margin-right: 0;
+}
+
+form {
+  background-color: white;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+form > div {
+  align-self: center;
+}
+form > div input {
+  width: 90%;
+  background-color: #D0F0C0;
+  border-radius: 5px;
+  border: 1px solid #94B8FF;
+}
+.container form header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container form header .user {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.fecha {
+  display: inline;
+  width: auto;
+  background-color: red;
+  height: 5%;
+  align-self: flex-start;
+}
+
+input[type="file"] {
+  width: 50%;
+}
+
+input[type="submit"] {
+  align-self: center;
+  width: 20%;
+  background-color: #0F52BA;
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+input:hover {
+  cursor: pointer;
+}
