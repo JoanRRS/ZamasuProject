@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   height: 100%;
 }
@@ -25,6 +26,8 @@ body * {
   margin-right: 0;
 }
 
+
+
 form {
   background-color: white;
   align-self: center;
@@ -35,8 +38,8 @@ form {
 form > div {
   align-self: center;
 }
-form > div input {
-  width: 90%;
+form input[type='text'] {
+  width: 60%;
   background-color: #D0F0C0;
   border-radius: 5px;
   border: 1px solid #94B8FF;
@@ -57,6 +60,27 @@ form > div input {
   background-color: red;
   height: 5%;
   align-self: flex-start;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.label{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.text{
+  width: 40%;
+}
+.text input[type='text'],.label label{
+  margin-bottom: 20px;
+}
+.text input[type='text']{
+  width: 100%;
 }
 
 input[type="file"] {
