@@ -11,7 +11,6 @@ objetivos:
 3 Consultas medicas
 4 Laboratorios
 5 Pagos
-6 Mejorar logo
 
 Investigar que es un sistema de informacion
 Investigar como trabaja un hospital
