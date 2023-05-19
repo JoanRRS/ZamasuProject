@@ -1,0 +1,25 @@
+El Hospital municipal HM actualmente no tiene un Sistema de Información y desea adquirir
+uno para llevar a cabo sus procesos de Ingresos de pacientes, Emergencias, Consultas
+médicas, Laboratorios, Pagos, entre otros.
+
+Decidir Reuniones y tiempos de trabajo
+
+objetivos:
+
+1 Crear ingreso de pacientes
+2 Emergencias
+3 Consultas medicas
+4 Laboratorios
+5 Pagos
+6 Mejorar logo
+
+Investigar que es un sistema de informacion
+Investigar como trabaja un hospital
+
+
+Investigar como crear ingreso de pacientes
+Como se trabaja en Emergencias
+Investigar sobre Consultas medicas
+Investigar sobre Laboratorios, a cual laboratorio ira cada caso y automatizar dicho proceso, Terminar el proceso del laboratorio cuando el encargado precione un boton de hecho y pasar la tarea a otro encargado si es necesario
+
+api de paypall para realizar pagos
