@@ -1,63 +1,11 @@
 @import url(variables.css);
+@import url(../css/header+footer.css);
 
 body, html{
     margin: 0;
 }
 
-#header{
-    display: flex;
-    align-items: center;
-    justify-content:last baseline;
-    gap: 20px;
 
-    height: 80px;
-
-    background: #000000;
-
-    font-size: larger;
-}
-
-#header .head-element:nth-child(1){
-    flex: 0.9;
-    
-    align-self: flex-start;
-
-    height: inherit;
-}
-
-#header .head-element{
-    display: flex;
-
-    padding: 0 10px;
-
-    height: 100%;
-
-    text-align: center;
-
-    transition: background 0.6s ease;
-}
-
-#header .index-element:hover{
-    background: #ffffff;
-}
-#header .index-element:hover a{
-    color: #000000;
-}
-
-#header .head-element .head-logo{
-    max-width: 200px;
-
-    height: inherit;
-}
-
-#header .head-element a{
-    margin: auto;
-
-    text-decoration: none;
-    color: #fff;
-
-    transition: color 0.6s ease;
-}
 
 
 
@@ -172,38 +120,3 @@ body, html{
 
 /*  */
 
-#footer .flex-footer{
-    display: flex;
-    justify-content: space-around;
-
-    padding: 20px;
-
-    background: #000000;
-    color: #ffffff;
-}
-
-#footer .flex-footer .footer-logo .footer-logo_image{
-
-    margin: 0 0 20px 0;
-}
-
-#footer .flex-footer .title-list{
-    font-size: x-large;
-    font-weight: bolder;
-}
-
-#footer .flex-footer .footer-contacts .element-list{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-
-    margin: 10px 0;
-}
-
-#footer .flex-footer .footer-contacts .element-list .element-logo{
-    font-size: x-large;
-}
-
-#footer .flex-footer .footer-contacts .element-list .element-flex-text:nth-child(1){
-    font-weight: bolder;
-}
