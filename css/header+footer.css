@@ -1,4 +1,10 @@
+@import url(variables.css);
+
 #header{
+    background: #000000;
+}
+
+#header .head-desktop{
     display: flex;
     align-items: center;
     justify-content:last baseline;
@@ -6,9 +12,11 @@
 
     height: 80px;
 
-    background: #000000;
-
     font-size: larger;
+}
+
+#header .head-mobile{
+    display: none;
 }
 
 #header .head-element:nth-child(1){
@@ -63,6 +71,8 @@
     display: flex;
     justify-content: space-around;
 
+    height: fit-content;
+
     padding: 20px;
 
     background: #000000;
@@ -93,4 +103,61 @@
 
 #footer .flex-footer .footer-contacts .element-list .element-flex-text:nth-child(1){
     font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 428px){
+    
+    #header .head-desktop{
+        display: none;
+    }
+
+    #header .head-mobile{
+        display: block;
+        
+        width: 100%;
+    }
+
+    .head-mobile .bar-flex{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: wrap;
+        align-items: center;
+        box-sizing: border-box;
+
+        height: 80px;
+    }
+
+    .head-mobile .bar-flex .bar-logo{
+        height: inherit;
+    }
+
+    .head-mobile .bar-flex .bar-btn{
+        padding: 10px;
+
+        color: #ffffff;
+
+        font-size: xxx-large;
+        font-weight: bolder;
+
+        cursor: pointer;
+    }
+
+    .head-mobile .bar-flex .bar-index{
+        display: none;
+        width: 100%;
+    }
+
+    .head-mobile .bar-flex:hover .bar-index{
+        display: block;
+    }
+
+
+    /*  */
+
+    #footer .flex-footer{
+        flex-direction: column;
+
+        gap: 20px;
+    }
 }
